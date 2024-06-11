@@ -98,7 +98,9 @@ class Train:
         error_train = mean_absolute_percentage_error(y_train, pred_train) * 100
         if save_model:
             # joblib.dump(aver_model, f"./model/model_regression.pkl")
-            aver_model.save("./model/model_merge")
+            if not os.path.exists('./model_merge'):
+                os.mkdir('./model_merge')
+            aver_model.save("./model_merge")
         else:
             self.model = aver_model
         print(f"Regression Error (Train): {error_train}%")
