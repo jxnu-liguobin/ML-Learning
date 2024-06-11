@@ -42,7 +42,7 @@ class Dataset:
         del batch1['b1c13']
         del batch1['b1c22']
 
-        # updates/replaces the values of dictionary with the new dictionary)
+        # updates/replaces the values of dictionary with the new dictionary
         batches_dict.update(batch1)
 
         batch2 = bat_dict2
@@ -115,7 +115,7 @@ class Dataset:
         slope_lin_fit_2_100 = np.zeros(
             n_cells)  # Slope of the linear fit to the capacity fade curve, cycles 2 to 100
         intercept_lin_fit_2_100 = np.zeros(
-            n_cells)  # Intercept of the linear fit to capavity face curve, cycles 2 to 100
+            n_cells)  # Intercept of the linear fit to capacity face curve, cycles 2 to 100
         discharge_capacity_2 = np.zeros(n_cells)  # Discharge capacity, cycle 2
         # Difference between max discharge capacity and cycle 2
         diff_discharge_capacity_max_2 = np.zeros(n_cells)
@@ -148,15 +148,14 @@ class Dataset:
             skewness_dQ_100_10[i] = np.log(np.abs(skew(dQ_100_10)))
             kurtosis_dQ_100_10[i] = np.log(np.abs(kurtosis(dQ_100_10)))
 
-            Qdlin_100_10 = cell['cycles']['100']['Qdlin'] - \
-                           cell['cycles']['10']['Qdlin']
+            Qdlin_100_10 = cell['cycles']['100']['Qdlin'] -  cell['cycles']['10']['Qdlin']
             dQ_100_10_2[i] = np.var(Qdlin_100_10)
 
             # 2. Discharge capacity fade curve features
             # Compute linear fit for cycles 2 to 100:
-            # discharge cappacities; q.shape = (99, 1);
+            # discharge capacities; q.shape = (99, 1);
             q = cell['summary']['QD'][2:101].reshape(-1, 1)
-            # Cylce index from 2 to 100; X.shape = (99, 1)
+            # Cycle index from 2 to 100; X.shape = (99, 1)
             X = cell['summary']['cycle'][2:101].reshape(-1, 1)
             linear_regressor_2_100 = LinearRegression()
             linear_regressor_2_100.fit(X, q)
@@ -169,10 +168,10 @@ class Dataset:
             discharge_capacity_100[i] = q[-1][0]
 
             q95_100 = cell['summary']['QD'][95:101].reshape(-1, 1)
-            # discharge cappacities; q.shape = (99, 1);
+            # discharge capacities; q.shape = (99, 1);
             q95_100 = q95_100 * 1000
             X95_100 = cell['summary']['cycle'][95:101].reshape(-1,
-                                                               1)  # Cylce index from 95 to 100; X.shape = (99, 1)
+                                                               1)  # Cycle index from 95 to 100; X.shape = (99, 1)
             linear_regressor_95_100 = LinearRegression()
             linear_regressor_95_100.fit(X95_100, q95_100)
             slope_lin_fit_95_100[i] = linear_regressor_95_100.coef_[0]
@@ -194,7 +193,7 @@ class Dataset:
             variance_dQ_5_4[i] = np.log10(np.var(dQ_5_4))
             cycle_550_clf[i] = cell['cycle_life'] >= 550
 
-        # combining all featues in one big matrix where rows are the cells and colums are the features
+        # combining all features in one big matrix where rows are the cells and columns are the features
         # note last two variables below are labels/targets for ML i.e cycle life and cycle_550_clf
         features_df = pd.DataFrame({
             "cell_key": np.array(list(batch_dict.keys())),  # 0
@@ -235,9 +234,8 @@ class Dataset:
         model_features = features_df[feature_indices]
         # get last two columns (cycle life and classification)
         labels = features_df.iloc[:, -2:]
-        # labels are (cycle life ) for regression other wise (0/1) for classsification
-        labels = labels.iloc[:,
-                 0] if model == "regression" else labels.iloc[:, 1]
+        # labels are (cycle life ) for regression otherwise (0/1) for classification
+        labels = labels.iloc[:, 0] if model == "regression" else labels.iloc[:, 1]
 
         # split data in to train/primary_test/and secondary test
         train_cells = np.arange(1, 84, 2)
