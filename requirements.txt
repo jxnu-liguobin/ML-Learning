@@ -257,7 +257,6 @@ werkzeug=3.0.3=py310hecd8cb5_0
 wheel=0.35.1=pyhd3eb1b0_0
 widgetsnbextension=4.0.10=py310hecd8cb5_0
 wrapt=1.14.1=py310hca72f7f_0
-xgboost=1.7.3=py310hecd8cb5_0
 xz=5.4.6=h6c40b1e_1
 yaml=0.2.5=haf1e3a3_0
 yarl=1.9.3=py310h6c40b1e_0
