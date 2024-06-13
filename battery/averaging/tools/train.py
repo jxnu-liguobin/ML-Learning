@@ -69,6 +69,7 @@ class Train:
         model_selects = []
         for i in range(n_models):
             model_name = model_cfg[i]["model_name"]
+            print('Select model: %s' % model_name)
             if model_name == "KerasRegressor":
                 model_selects.append(
                     OptionalNnModels(
