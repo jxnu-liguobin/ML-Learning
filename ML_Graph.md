@@ -40,30 +40,6 @@
 - tensorflow - 机器学习框架
 - xgboost - 极限梯度提升算法
 
-## **数学基础**
-
-- **线性代数**
-    - 标量
-    - 向量
-    - 张量
-    - 范数
-    - 矩阵
-    - 转置
-    - 点积、数量积
-    - 向量积、叉积
-    - 内积
-
-- **微积分**
-    - 导数
-    - 微分
-    - 偏导数
-    - 梯度
-
-- **概率**
-    - 贝叶斯定理
-    - 方差
-    - 标准差
-
 ## **学习形式分类**
 
 - **监督学习** - 给定数据，预测标签
@@ -87,21 +63,26 @@
     - 岭回归(Ridge Regression)
     - 套索回归(Lasso Regression)
     - 弹性网络回归(ElasticNet Regression)
+    - 自适应增强回归(AdaBoost Regression)
+    - 极限梯度提升回归(Extreme Gradient Boosting Regression)
+    - 核脊回归(Kernel Ridge Regression, KRR)
+    - 梯度提升回归(GradientBoosting Regression, GBR)
+    - 支持向量回归(Support Vector Regression, SVR)
 - **分类算法**
     - 逻辑回归(Logistic Regression, LR)
     - K最近邻(k-Nearest Neighbor, KNN)
     - 朴素贝叶斯模型(Naive Bayesian Model, NBM)
-    - 隐马尔科夫模型(Hidden Markov Model)
-    - 支持向量机(Support Vector Machine)
+    - 隐马尔科夫模型(Hidden Markov Model, HMM)
+    - 支持向量机(Support Vector Machine, SVM)
     - 决策树(Decision Tree)
     - 神经网络(Neural Network)
-        - 径向基函数网络(Radial Basis Function Network)
-        - 自适应共振理论网络(Adaptive Resonance Theory)
+        - 径向基函数网络(Radial Basis Function Network, RBF Network)
+        - 自适应共振理论网络(Adaptive Resonance Theory, ART)
         - 自组织映射神经网络(Self-Organizing Map, SOM)
         - Elman网络
         - 波茨曼机(Boltzmann Machine)
-        - 深度学习
-    - 集成学习(ada-boost)
+        - 深度学习(Deep Learning, DL)
+    - 自适应提升(Adaptive Boosting)
 - **聚类算法**
     - K均值聚类(K-Means)
     - 层次聚类(Hierarchical Clustering)
@@ -151,3 +132,28 @@
         - 修正线性单元(ReLU)
         - 带泄漏的ReLU(Leaky ReLU)
     - **超参数(hyper parameters)**
+
+
+## **数学基础**
+
+- **线性代数**
+  - 标量
+  - 向量
+  - 张量
+  - 范数
+  - 矩阵
+  - 转置
+  - 点积、数量积
+  - 向量积、叉积
+  - 内积
+
+- **微积分**
+  - 导数
+  - 微分
+  - 偏导数
+  - 梯度
+
+- **概率**
+  - 贝叶斯定理
+  - 方差
+  - 标准差
