@@ -1,24 +1,35 @@
 # 机器学习大纲 Ongoing
 
 ## **技术栈**
+
+### **基础库**
+
 - pandas - 数据分析
 - numpy - 基础科学计算，维度数组与矩阵运算
 - scipy - 基于numpy的科学计算库
-    - cluster 矢量量化、K-均值
-    - constants 物理和数学常数
-    - fftpack 傅里叶变换
-    - integrate 积分程序
-    - interpolate 插值
-    - linalg 线性代数程序
-    - ndimage n维图像包
-    - odr 正交距离回归
-    - optimize 优化
-    - signal 信号处理
-    - sparse 稀疏矩阵
-    - spatial 空间数据结构和算法
-    - special 任何特殊数学函数
-    - stats 统计
+  - cluster 矢量量化、K-均值
+  - constants 物理和数学常数
+  - fftpack 傅里叶变换
+  - integrate 积分程序
+  - interpolate 插值
+  - linalg 线性代数程序
+  - ndimage n维图像包
+  - odr 正交距离回归
+  - optimize 优化
+  - signal 信号处理
+  - sparse 稀疏矩阵
+  - spatial 空间数据结构和算法
+  - special 任何特殊数学函数
+  - stats 统计
+  
+### **可视化库**
+
 - matplotlib - 可视化、曲线拟合
+- seaborn - 数据可视化库
+- plotly - 数据可视化库
+
+### **算法库**
+
 - scikit-learn - 基于scipy的机器学习库
     - feature_selection 特征选择
     - preprocessing 特征缩放、标准化、编码、缺失值处理
@@ -55,6 +66,7 @@
 ## **算法**
 
 ### **任务目标分类**
+
 - **回归算法**
     - 线性回归(Linear Regression)
     - 非线性回归(Non-linear Regression)
@@ -64,7 +76,7 @@
     - 套索回归(Lasso Regression)
     - 弹性网络回归(ElasticNet Regression)
     - 自适应增强回归(AdaBoost Regression)
-    - 极限梯度提升回归(Extreme Gradient Boosting Regression)
+    - 极端梯度提升回归(Extreme Gradient Boosting Regression)
     - 核脊回归(Kernel Ridge Regression, KRR)
     - 梯度提升回归(GradientBoosting Regression, GBR)
     - 支持向量回归(Support Vector Regression, SVR)
@@ -72,6 +84,7 @@
     - 逻辑回归(Logistic Regression, LR)
     - K最近邻(k-Nearest Neighbor, KNN)
     - 朴素贝叶斯模型(Naive Bayesian Model, NBM)
+    - 贝叶斯网络(Bayesian Network, BN)
     - 隐马尔科夫模型(Hidden Markov Model, HMM)
     - 支持向量机(Support Vector Machine, SVM)
     - 决策树(Decision Tree)
@@ -82,7 +95,11 @@
         - Elman网络
         - 波茨曼机(Boltzmann Machine)
         - 深度学习(Deep Learning, DL)
-    - 自适应提升(Adaptive Boosting)
+    - 集成学习
+      - 自适应提升(Adaptive Boosting)
+      - 随机森林(Random Forest, RF)
+      - 梯度提升决策树(Gradient Boosting Decision Tree, GBDT)
+      - 极端梯度提升(Extreme Gradient Boosting, XGBoost)
 - **聚类算法**
     - K均值聚类(K-Means)
     - 层次聚类(Hierarchical Clustering)
@@ -92,6 +109,7 @@
         - 线性判别分析(Linear Discriminant Analysis)
 
 ### **梯度下降算法**
+
 - 批量梯度下降法(Batch Gradient Descent)
 - 随机梯度下降法(Stochastic Gradient Descent)
 - 小批量梯度下降法(Mini-batch Gradient Descent)
@@ -132,7 +150,6 @@
         - 修正线性单元(ReLU)
         - 带泄漏的ReLU(Leaky ReLU)
     - **超参数(hyper parameters)**
-
 
 ## **数学基础**
 
