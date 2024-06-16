@@ -108,7 +108,7 @@
   - 自适应共振理论网络(Adaptive Resonance Theory, ART)
   - 自组织映射神经网络(Self-Organizing Map, SOM)
   - Elman网络
-  - 波茨曼机(Boltzmann Machine)
+  - 受限波茨曼机(Restricted Boltzmann Machine)
   - 深度学习(Deep Learning, DL)
   - 自编码器(Autoencoder, AE)
 - 集成学习
