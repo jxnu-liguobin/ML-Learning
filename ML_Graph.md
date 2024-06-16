@@ -111,11 +111,11 @@
 ### **梯度下降算法**
 
 - 批量梯度下降法(Batch Gradient Descent)
-- 随机梯度下降法(Stochastic Gradient Descent)
+- 随机梯度下降法(Stochastic Gradient Descent, SGD)
 - 小批量梯度下降法(Mini-batch Gradient Descent)
-- 动量梯度下降法(Gradient descent with Momentum)
-- Adam
-- RMSprop
+- 动量梯度下降法(Gradient Descent with Momentum)
+- Adam算法(Adaptive Moment Estimation)
+- RMSProp算法(Root Mean Square Prop)
 
 ## **深度学习**
 
