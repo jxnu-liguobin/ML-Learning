@@ -110,19 +110,29 @@
   - Elman网络
   - 波茨曼机(Boltzmann Machine)
   - 深度学习(Deep Learning, DL)
+  - 自编码器(Autoencoder, AE)
 - 集成学习
   - 自适应提升(Adaptive Boosting, AdaBoost)
   - 随机森林(Random Forest, RF)
   - 梯度提升决策树(Gradient Boosting Decision Tree, GBDT)
   - 极端梯度提升(Extreme Gradient Boosting, XGBoost)
 
+### **降维算法**
+- 自编码器(Autoencoder, AE)
+- 主成分分析(Principal Components Analysis, PCA)
+- 多维缩放(Multiple Dimensional Scaling, MDS)
+- 线性判别分析(Linear Discriminant Analysis, LDA)
+- 等度量映射(Isometric Mapping, Isomap)
+- 局部线性嵌入(Locally Linear Embedding, LLE)
+- T分布随机近邻嵌入(T-Distribution Stochastic Neighbour Embedding, t-SNE)
+
 ### **聚类算法**
 - K均值聚类(K-Means)
 - 层次聚类(Hierarchical Clustering)
 - 混合高斯模型(Gaussian Mixture Model, GMM)
-- 降维算法包括：
-  - 主成因分析(Principal Component Analysis, PCA)
-  - 线性判别分析(Linear Discriminant Analysis, LDA)
+- 图团体检测(Graph Community Detection)
+- 均值漂移(Mean Shift)
+- DBSCAN(Density-Based Spatial Clustering of Applications with Noise)
 
 ### **梯度下降算法**
 - 批量梯度下降法(Batch Gradient Descent)
@@ -159,16 +169,6 @@
   - 图像生成、图像增强、视频生成
   - 风格迁移
   - 文本生成
-  
-### **自动编码器(Autoencoder)**
-- 核心结构
-  - 编码器(Encoder)
-  - 解码器(Decoder)
-- 应用场景
-  - 图像去噪
-  - 数据重建
-  - 生成数据
-  - 特征提取
   
 ### **长短时记忆网络(LSTM)**
 - 核心结构
