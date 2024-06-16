@@ -84,7 +84,6 @@
 ### **回归算法**
 - 线性回归(Linear Regression)
 - 非线性回归(Non-linear Regression)
-- 逻辑回归(Logistic Regression) 或 对数几率回归
 - 多项式回归(Polynomial Regression)
 - 岭回归(Ridge Regression)
 - 套索回归(Lasso Regression)
@@ -96,7 +95,7 @@
 - 支持向量回归(Support Vector Regression, SVR)
 
 ### **分类算法**
-- 逻辑回归(Logistic Regression, LR)
+- 逻辑回归(Logistic Regression, LR) 或 对数几率回归
 - K最近邻(k-Nearest Neighbor, KNN)
 - 朴素贝叶斯模型(Naive Bayesian Model, NBM)
 - 贝叶斯网络(Bayesian Network, BN)
