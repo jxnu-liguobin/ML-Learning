@@ -1,6 +1,7 @@
 # 机器学习大纲 Ongoing
 
 ## **基础概念**
+
 - 损失函数(Loss Function)
 - 代价函数(Cost Function)
 - 梯度下降(Gradient Descent)
@@ -33,7 +34,6 @@
 ## **技术栈**
 
 ### **基础库(Python)**
-
 - pandas - 数据分析
 - numpy - 基础科学计算，维度数组与矩阵运算
 - scipy - 基于numpy的科学计算库
@@ -53,13 +53,11 @@
   - stats 统计
   
 ### **可视化库**
-
 - matplotlib - 可视化、曲线拟合
 - seaborn - 数据可视化库
 - plotly - 数据可视化库
 
 ### **算法库**
-
 - scikit-learn - 基于scipy的机器学习库
   - feature_selection 特征选择
   - preprocessing 特征缩放、标准化、编码、缺失值处理
@@ -84,7 +82,6 @@
 ## **算法**
 
 ### **回归算法**
- 
 - 线性回归(Linear Regression)
 - 非线性回归(Non-linear Regression)
 - 逻辑回归(Logistic Regression) 或 对数几率回归
@@ -99,7 +96,6 @@
 - 支持向量回归(Support Vector Regression, SVR)
 
 ### **分类算法**
-
 - 逻辑回归(Logistic Regression, LR)
 - K最近邻(k-Nearest Neighbor, KNN)
 - 朴素贝叶斯模型(Naive Bayesian Model, NBM)
@@ -121,7 +117,6 @@
   - 极端梯度提升(Extreme Gradient Boosting, XGBoost)
 
 ### **聚类算法**
-
 - K均值聚类(K-Means)
 - 层次聚类(Hierarchical Clustering)
 - 混合高斯模型(Gaussian Mixture Model, GMM)
@@ -130,7 +125,6 @@
   - 线性判别分析(Linear Discriminant Analysis, LDA)
 
 ### **梯度下降算法**
-
 - 批量梯度下降法(Batch Gradient Descent)
 - 随机梯度下降法(Stochastic Gradient Descent, SGD)
 - 小批量梯度下降法(Mini-batch Gradient Descent)
@@ -140,54 +134,57 @@
 
 ## **深度学习**
 
-- **卷积神经网络(CNN)**
-  - 核心结构
-    - 卷积层(Convolutional Layer)
-    - 池化层(Pooling Layer)
-    - 全连接池(Full Connected Layer)
-  - 应用场景
-    - 图像分类
-    - 图像生成
-    - 目标检测
-    - 语义分割
-- **循环神经网络(RNN)**
-  - 应用场景
-    - 自然语言处理
-    - 时间序列预测
-    - 语音识别
-- **生成对抗网络(GAN)**
-  - 核心结构
-    - 生成器(Generator)
-    - 判别器(Discriminator)
-  - 应用场景
-    - 图像生成、图像增强、视频生成
-    - 风格迁移
-    - 文本生成
-- **自动编码器(Autoencoder)**
-  - 核心结构
-    - 编码器(Encoder)
-    - 解码器(Decoder)
-  - 应用场景
-    - 图像去噪
-    - 数据重建
-    - 生成数据
-    - 特征提取
-- **长短时记忆网络(LSTM)**
-  - 核心结构
-    - 遗忘门(ForgetGate)
-    - 输入门(InputGate)
-    - 输出门(OutputGate)
-  - 应用场景
-    - 自然语言处理
-    - 时间序列预测
-    - 语音识别
-    - 图像描述生成
-    - 行为识别
+### **卷积神经网络(CNN)**
+- 核心结构
+  - 卷积层(Convolutional Layer)
+  - 池化层(Pooling Layer)
+  - 全连接池(Full Connected Layer)
+- 应用场景
+  - 图像分类
+  - 图像生成
+  - 目标检测
+  - 语义分割
+  
+### **循环神经网络(RNN)**
+- 应用场景
+  - 自然语言处理
+  - 时间序列预测
+  - 语音识别
+  
+### **生成对抗网络(GAN)**
+- 核心结构
+  - 生成器(Generator)
+  - 判别器(Discriminator)
+- 应用场景
+  - 图像生成、图像增强、视频生成
+  - 风格迁移
+  - 文本生成
+  
+### **自动编码器(Autoencoder)**
+- 核心结构
+  - 编码器(Encoder)
+  - 解码器(Decoder)
+- 应用场景
+  - 图像去噪
+  - 数据重建
+  - 生成数据
+  - 特征提取
+  
+### **长短时记忆网络(LSTM)**
+- 核心结构
+  - 遗忘门(ForgetGate)
+  - 输入门(InputGate)
+  - 输出门(OutputGate)
+- 应用场景
+  - 自然语言处理
+  - 时间序列预测
+  - 语音识别
+  - 图像描述生成
+  - 行为识别
 
 ## **数学基础**
 
 ### **线性代数**
-
 - 标量
 - 向量
 - 张量
@@ -199,14 +196,12 @@
 - 内积
 
 ### **微积分**
- 
 - 导数
 - 微分
 - 偏导数
 - 梯度
 
 ### **概率**
-
 - 贝叶斯定理
 - 方差
 - 标准差
