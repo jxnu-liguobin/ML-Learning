@@ -59,6 +59,7 @@
 
 ### **算法库**
 - scikit-learn - 基于scipy的机器学习库
+  - neural_network 神经网络 
   - feature_selection 特征选择
   - preprocessing 特征缩放、标准化、编码、缺失值处理
   - model_selection 交叉验证、参数搜索和数据集分割
@@ -78,6 +79,7 @@
 - keras - 深度学习库
 - tensorflow - 机器学习框架
 - xgboost - 极限梯度提升算法
+- shap - 用于解释机器学习模型的输出
 
 ## **算法**
 
