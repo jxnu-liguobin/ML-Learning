@@ -143,6 +143,15 @@
 - Adam算法(Adaptive Moment Estimation)
 - RMSProp算法(Root Mean Square Prop)
 
+### **超参优化算法**
+- 随机搜索(Random Search)
+- 网格搜索(Grid Search)
+- 贝叶斯优化(Bayesian Optimization)
+- 遗传算法(Genetic Algorithm, GA)
+- 基于剃度的优化(Gradient-Based Optimization)
+- 基于种群的优化(Population-Based Optimization, PBO)
+- 参数配置空间中的迭代局部搜索(ParamILS)
+
 ## **深度学习**
 
 ### **卷积神经网络(CNN)**
