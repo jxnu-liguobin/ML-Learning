@@ -148,7 +148,7 @@
 - 网格搜索(Grid Search)
 - 贝叶斯优化(Bayesian Optimization)
 - 遗传算法(Genetic Algorithm, GA)
-- 基于剃度的优化(Gradient-Based Optimization)
+- 基于梯度的优化(Gradient-Based Optimization)
 - 基于种群的优化(Population-Based Optimization, PBO)
 - 参数配置空间中的迭代局部搜索(ParamILS)
 
