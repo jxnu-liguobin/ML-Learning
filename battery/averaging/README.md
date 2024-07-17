@@ -1,5 +1,7 @@
 # 平均融合模型
 
+电池寿命预测
+
 - ElasticNet
 - Lasso
 - Ridge
