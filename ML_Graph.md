@@ -108,13 +108,14 @@
 - 支持向量机(Support Vector Machine, SVM)
 - 决策树(Decision Tree)
 - 神经网络(Neural Network)
-  - 径向基函数网络(Radial Basis Function Network, RBF Network)
-  - 自适应共振理论网络(Adaptive Resonance Theory, ART)
-  - 自组织映射神经网络(Self-Organizing Map, SOM)
+  - 径向基函数(Radial Basis Function, RBF)
+  - 自适应谐振理论(Adaptive Resonance Theory, ART)
+  - 自组织映射(Self-Organizing Map, SOM)
   - Elman网络
   - 受限波茨曼机(Restricted Boltzmann Machine)
   - 深度学习(Deep Learning, DL)
   - 自编码器(Autoencoder, AE)
+  - 感知机(Perception)
 - 集成学习
   - 自适应提升(Adaptive Boosting, AdaBoost)
   - 随机森林(Random Forest, RF)
