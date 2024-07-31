@@ -155,7 +155,8 @@
 - 基于梯度的优化(Gradient-Based Optimization)
 - 基于种群的优化(Population-Based Optimization, PBO)
 - 参数配置空间中的迭代局部搜索(ParamILS)
-
+- LBFGS (Limited-memory Broyden–Fletcher–Goldfarb–Shanno)
+  
 ## **深度学习**
 
 ### **卷积神经网络(CNN)**
