@@ -132,12 +132,16 @@
 - T分布随机近邻嵌入(T-Distribution Stochastic Neighbour Embedding, t-SNE)
 
 ### **聚类算法**
-- K均值聚类(K-Means)
+- 原型聚类(Prototype-Based Clustering)
+  - K均值聚类(K-Means Clustering)
+  - 高斯混合聚类(Mixture-of-Gaussian Clustering)
+  - 学习向量量化(Learning Vector Quantization)
 - 层次聚类(Hierarchical Clustering)
-- 混合高斯模型(Gaussian Mixture Model, GMM)
+  - AGNES(Agglomerative Nesting)
+- 密度聚类(Density-Based Clustering)
+  - 均值漂移(Mean Shift)
+  - DBSCAN(Density-Based Spatial Clustering of Applications with Noise)
 - 图团体检测(Graph Community Detection)
-- 均值漂移(Mean Shift)
-- DBSCAN(Density-Based Spatial Clustering of Applications with Noise)
 
 ### **梯度下降算法**
 - 批量梯度下降法(Batch Gradient Descent)
