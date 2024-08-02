@@ -135,7 +135,7 @@
 - 原型聚类(Prototype-Based Clustering)
   - K均值聚类(K-Means Clustering)
   - 高斯混合聚类(Mixture-of-Gaussian Clustering)
-  - 学习向量量化(Learning Vector Quantization)
+  - 学习向量量化(Learning Vector Quantization, LVQ)
 - 层次聚类(Hierarchical Clustering)
   - AGNES(Agglomerative Nesting)
 - 密度聚类(Density-Based Clustering)
