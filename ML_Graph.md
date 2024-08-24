@@ -167,7 +167,7 @@
 - 核心结构
   - 卷积层(Convolutional Layer)
   - 池化层(Pooling Layer)
-  - 全连接池(Full Connected Layer)
+  - 全连接层(Full Connected Layer)
 - 应用场景
   - 图像分类
   - 图像生成
@@ -176,19 +176,18 @@
   
 ### **循环神经网络(RNN)**
 
-**应用场景**
+#### **应用场景**
  - 自然语言处理
  - 时间序列预测
 
-**长短时记忆网络(LSTM)**
+#### **长短时记忆网络(LSTM)**
 - 核心结构
   - 遗忘门(Forget Gate)
   - 输入门(Input Gate)
   - 输出门(Output Gate)
   - 候选记忆元(Candidate Memory Cell)
 
-
-**门控循环单元(GRU)**
+#### **门控循环单元(GRU)**
 - 核心结构
   - 重置门(Reset Gate)
   - 更新门(Update Gate)
@@ -203,7 +202,38 @@
   - 图像生成、图像增强、视频生成
   - 风格迁移
   - 文本生成
-  
+
+### [tsai](https://github.com/timeseriesAI/tsai)库支持的时序模型:
+
+- [LSTM](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/RNN.py) (Hochreiter, 1997) ([paper](https://ieeexplore.ieee.org/abstract/document/6795963/))
+- [GRU](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/RNN.py) (Cho, 2014) ([paper](https://arxiv.org/abs/1412.3555))
+- [MLP](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/MLP.py) - Multilayer Perceptron (Wang, 2016) ([paper](https://arxiv.org/abs/1611.06455))
+- [FCN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/FCN.py) - Fully Convolutional Network (Wang, 2016) ([paper](https://arxiv.org/abs/1611.06455))
+- [ResNet](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/ResNet.py) - Residual Network (Wang, 2016) ([paper](https://arxiv.org/abs/1611.06455))
+- [LSTM-FCN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/RNN_FCN.py) (Karim, 2017) ([paper](https://arxiv.org/abs/1709.05206))
+- [GRU-FCN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/RNN_FCN.py) (Elsayed, 2018) ([paper](https://arxiv.org/abs/1812.07683))
+- [mWDN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/mWDN.py) - Multilevel wavelet decomposition network (Wang, 2018) ([paper](https://dl.acm.org/doi/abs/10.1145/3219819.3220060))
+- [TCN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TCN.py) - Temporal Convolutional Network (Bai, 2018) ([paper](https://arxiv.org/abs/1803.01271))
+- [MLSTM-FCN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/RNN_FCN.py) - Multivariate LSTM-FCN (Karim, 2019) ([paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608019301200))
+- [InceptionTime](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/InceptionTime.py) (Fawaz, 2019) ([paper](https://arxiv.org/abs/1909.04939))
+- [Rocket](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/ROCKET.py) (Dempster, 2019) ([paper](https://arxiv.org/abs/1910.13051))
+- [XceptionTime](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/XceptionTime.py) (Rahimian, 2019) ([paper](https://arxiv.org/abs/1911.03803))
+- [ResCNN](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/ResCNN.py) - 1D-ResCNN (Zou , 2019) ([paper](https://www.sciencedirect.com/science/article/pii/S0925231219311506))
+- [TabModel](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TabModel.py) - modified from fastai’s [TabularModel](https://docs.fast.ai/tabular.model.html#TabularModel)
+- [OmniScale](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/OmniScaleCNN.py) - Omni-Scale 1D-CNN (Tang, 2020) ([paper](https://arxiv.org/abs/2002.10061))
+- [TST](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TST.py) - Time Series Transformer (Zerveas, 2020) ([paper](https://dl.acm.org/doi/abs/10.1145/3447548.3467401))
+- [TabTransformer](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TabTransformer.py) (Huang, 2020) ([paper](https://arxiv.org/pdf/2012.06678))
+- [TSiT](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TSiTPlus.py) Adapted from ViT (Dosovitskiy, 2020) ([paper](https://arxiv.org/abs/2010.11929))
+- [MiniRocket](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/MINIROCKET.py) (Dempster, 2021) ([paper](https://arxiv.org/abs/2102.00457))
+- [XCM](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/XCM.py) - An Explainable Convolutional Neural Network (Fauvel, 2021) ([paper](https://hal.inria.fr/hal-03469487/document))
+- [gMLP](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/gMLP.py) - Gated Multilayer Perceptron (Liu, 2021) ([paper](https://arxiv.org/abs/2105.08050))
+- [TSPerceiver](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TSPerceiver.py) - Adapted from Perceiver IO (Jaegle, 2021) ([paper](https://arxiv.org/abs/2107.14795))
+- [GatedTabTransformer](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/GatedTabTransformer.py) (Cholakov, 2022) ([paper](https://arxiv.org/abs/2201.00199))
+- [TSSequencerPlus](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/TSSequencerPlus.py) - Adapted from Sequencer (Tatsunami, 2022) ([paper](https://arxiv.org/abs/2205.01972))
+- [PatchTST](https://github.com/timeseriesAI/tsai/blob/main/tsai/models/PatchTST.py) - (Nie, 2022) ([paper](https://arxiv.org/abs/2211.14730))
+
+其他变体，诸如: TransformerModel、LSTMAttention、GRUAttention等
+
 ## **数学基础**
 
 ### **线性代数**
