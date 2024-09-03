@@ -11,6 +11,7 @@
   - 双曲正切函数(Tanh)
   - 修正线性单元(ReLU)
   - 带泄漏的ReLU(Leaky ReLU)
+  - 高斯误差线性单元(GELU)
 - 超参数(Hyper Parameters)
 - 神经网络类型
   - 前馈神经网络(Feedforward Neural Network)
